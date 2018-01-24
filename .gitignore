@@ -1,0 +1,27 @@
+# Only get the config.xml from any Jobs directory
+*/builds
+*/modules
+*/htmlreports
+*/last*
+*/next*
+*/*.csv
+*/*.txt
+*/*.log
+*/workspace
+*/modules
+*/promotions/*/*
+*/.gitkeep
+*.pyc
+*.retry
+# Process jobs that exist in folders
+**/jobs/*/builds
+**/jobs/*/modules
+**/jobs/*/htmlreports
+**/jobs/*/last*
+**/jobs/*/next*
+**/jobs/*/*.csv
+**/jobs/*/*.txt
+**/jobs/*/*.log
+**/jobs/*/workspace
+**/jobs/*/modules
+
